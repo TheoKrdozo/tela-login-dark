@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
     <title>Login</title>
 </head>
 <body>
     <main>
-        <div class="left-login">
+        <div class="title">
             <h1>Faça login <br> E entre para o nosso time</h1>
+            <img src="./img/imagem-animada.svg" alt=" ">
         </div>
-        <div class="right-login">
+        <div class="login">
             <form action="#">
                 <h1>Login</h1>
-                <label for="usuario">Usuário</label>
-                <input type="text" name="usuario" id="usuario" required placeholder="usuário">
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha" required placeholder="Senha">
+                <fieldset>
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="usuario" required placeholder="usuário">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" required placeholder="Senha">
+                </fieldset>
                 <button type="submit">Login</button>
             </form>
         </div>
